@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>bababoi.springframework</groupId>
 	<artifactId>SpringFramework-PetClinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>SpringFramework-PetClinic</name>
 	<description>SpringFramework-PetClinic</description>
 	<properties>
@@ -39,6 +39,6 @@
 			</plugin>
 		</plugins>
 	</build>
-<scm><developerConnection>scm:git:https://github.com/TheBababoi/SpringFramework-PetClinic.git</developerConnection>  <tag>SpringFramework-PetClinic-0.0.1</tag>
+<scm><developerConnection>scm:git:https://github.com/TheBababoi/SpringFramework-PetClinic.git</developerConnection>  <tag>HEAD</tag>
   </scm>
 </project>
