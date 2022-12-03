@@ -26,18 +26,19 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>3.2.0</version>
+
+			</plugin>
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
+					<goal>install</goal>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-
+<scm><developerConnection>scm:git:https://github.com/TheBababoi/SpringFramework-PetClinic.git</developerConnection></scm>
 </project>
