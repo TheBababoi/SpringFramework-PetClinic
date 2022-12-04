@@ -2,7 +2,7 @@ package bababoi.springframework.springframeworkpetclinic.model;
 
 import java.time.LocalDate;
 
-public class PetType {
+public class PetType extends BaseEntity {
 
     private String name;
 
