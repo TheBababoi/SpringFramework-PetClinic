@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>bababoi.springframework</groupId>
 	<artifactId>SpringFramework-PetClinic</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>SpringFramework-PetClinic</name>
 	<description>SpringFramework-PetClinic</description>
 	<properties>
@@ -34,18 +34,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
 					<goal>install</goal>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-<scm><developerConnection>scm:git@github.com:TheBababoi/SpringFramework-PetClinic.git</developerConnection>  <tag>HEAD</tag>
+<scm><developerConnection>scm:git:https://github.com/TheBababoi/SpringFramework-PetClinic.git</developerConnection>  <tag>HEAD</tag>
   </scm>
-
 </project>
